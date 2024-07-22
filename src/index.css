@@ -1,0 +1,135 @@
+/* TODOLIST.css */
+.to-do-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  font-family: Arial, sans-serif;
+  
+}
+h1{
+  
+  font-size: 4rem;
+  color: white;
+}
+body{
+  background-color: hsl(0, 0%, 10%);
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.to-do-input {
+  padding: 10px 15px;
+  margin-right: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  width: 250px;
+  font-size: 16px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.to-do-input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.add-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+  background-color: #218838;
+}
+
+ol {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+  
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 3px solid lightgray;
+  padding: 15px;
+  color:black;
+  background-color: hsl(0, 0%, 95%);
+}
+
+.text {
+  margin-right: 20px;
+  flex-grow: 1;
+  font-size: 18px;
+  
+}
+
+button {
+  padding: 5px 10px;
+  margin-left: 5px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.delete-button {
+  background-color: #dc3545;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+.moveup-button {
+  background-color: #ffc107;
+}
+
+.moveup-button:hover {
+  background-color: #e0a800;
+}
+
+.movedown-button {
+  background-color: #17a2b8;
+}
+
+.movedown-button:hover {
+  background-color: #138496;
+}
+input{
+  padding: 10px 20px;
+  margin-right: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 200px; /* Adjust width to fit better */
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    transition: border-color 0.3s ease, box-shadow 0.3s;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  
+}
